@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://cdn.slidesharecdn.com/ss_thumbnails/transcriptionservice22-180828053530-thumbnail-4.jpg?cb=1535434958");
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+    background-color: rgba(99, 57, 235, 0.383);
+    font-family: "Crete Round", serif;
+    color: rgb(202, 236, 47);
+  }
+  #head1{
+    margin-right: 10%;
+    margin-left: 10%;
+    align-content: center;
+    width: 80%;
+    text-align: center;
+    background-image: url("paper.gif");
+    background-color: rgb(54, 6, 145);
+
+}
+  #interim {
+    color: rgb(175, 241, 20);
+  }
+  
+  #result {
+    align-content: center;
+    height: 500px;
+    border: 1px solid rgb(137, 174, 233);
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px 0 rgb(137, 174, 233);
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  button {
+    background-color: greenyellow;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 45%;
+  }

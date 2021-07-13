@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="Converter2.css">
+        <script type="text/javascript" src="https://code.responsivevoice.org/responsivevoice.js"></script>
+
+        <div id="head2">
+
+        <h1>Text to Speech Converter</h1>
+        </div>
+        <div id="Container2">
+            
+        <div id="Block">
+            <h1>Enter your text here</h1>
+        <textarea id="txt" cols="30" rows="10"></textarea>
+        <div id="button">
+        <input onclick="speakText()" type="button" value="Submit">
+        <span><h6>*Wait for the reply</h6></span>
+        </div>
+        </div>
+        </div>
+
+        <script>
+            function speakText(){
+                var text = document.getElementById('txt').value;
+                responsiveVoice.speak(text);
+                
+            }
+        </script>
+    </body>
+</html>
